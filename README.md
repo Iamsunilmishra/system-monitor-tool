@@ -1,84 +1,75 @@
-# System Monitor Tool — Linux Capstone Project
+# System Monitor Tool — Linux System Programming (C++)
 
-A lightweight System Monitoring tool built using **Python**, **Linux System Programming**, and **Command-line utilities**.  
-This project demonstrates knowledge of Linux OS, process management, resource monitoring, and file handling.
+A Linux-based System Monitor written in **C++**, using Linux system files such as  
+`/proc/stat`, `/proc/meminfo`, and shell utilities to retrieve real-time system resource usage.
+
+This project demonstrates knowledge of:
+
+✅ Linux Internals  
+✅ Linux System Programming (LSP)  
+✅ Process & resource monitoring  
+✅ C++ file handling and system calls  
+✅ WSL2 / Ubuntu environment
 
 ---
 
 ## ✅ Features
 
-- Real-time **CPU usage monitoring**
-- Live **RAM usage tracking**
-- **Disk usage summary**
-- Real-time **process details**
-- Logging support
+- Real-time **CPU Usage** (calculated from `/proc/stat`)
+- Real-time **RAM Usage** (from `/proc/meminfo`)
+- **Disk Usage** using `df -h`
+- Updates every 2 seconds
 - Simple CLI-based interface
-- Optional graphical charts (Matplotlib)
+- 100% **C++ implementation**
 
 ---
 
 ## ✅ Project Structure
 
-```
 system-monitor-tool/
 │── src/
-│   └── system_monitor.py
+│ └── system_monitor.cpp
 │── screenshots/
-│── requirements.txt
 │── Project_Report.pdf
-│── .gitignore
+│── requirements.txt (Not needed for C++, optional)
 │── README.md
-```
+│── .gitignore
 
 ---
 
-## ✅ How to Run the Project
+## ✅ How to Compile & Run
 
-### 1. Clone the repository
+### **1. Compile**
 
-```
-git clone https://github.com/yourusername/system-monitor-tool.git
-cd system-monitor-tool
-```
 
-### 2. Install dependencies
+### **2. Run**
 
-```
-pip install -r requirements.txt
-```
-
-### 3. Run the tool
-
-```
-python3 src/system_monitor.py
-```
 
 ---
 
 ## ✅ Technologies Used
 
-- Python 3
-- Linux System Programming
-- psutil
-- Matplotlib
-- Bash / CLI Tools
-
----
-
-## ✅ Project Report
-
-The complete Project Report is available here:
-
-📄 **Project_Report.pdf**
+- **C++**
+- Linux `/proc` filesystem
+- Linux System Programming fundamentals
+- WSL2 / Ubuntu
 
 ---
 
 ## ✅ Screenshots
 
-Screenshots of the tool running in Ubuntu are available in the `/screenshots` folder.
+Screenshots of the tool's output are available in the `screenshots/` folder.
 
 ---
 
-## ✅ License
+## ✅ Project Report
 
-MIT License © 2025 Sunil Mishra
+Full project documentation is available in **Project_Report.pdf**.
+
+---
+
+## ✅ Author  
+**Sunil Mishra**
+
+---
+
