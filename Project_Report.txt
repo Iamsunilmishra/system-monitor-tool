@@ -1,0 +1,19 @@
+Project Title: System Monitor Tool
+
+Objective:
+To develop a Python-based real-time system monitoring tool to display CPU, Memory, and Disk usage graphically.
+
+Technologies Used:
+- Python
+- psutil
+- matplotlib
+- Ubuntu (WSL2 environment)
+
+Features:
+- Shows system information (CPU, memory, disk)
+- Plots CPU usage graph
+- Real-time system monitoring
+- User-friendly menu interface
+
+Conclusion:
+The project successfully monitors system performance metrics using Python and provides visual insights through matplotlib graphs.
